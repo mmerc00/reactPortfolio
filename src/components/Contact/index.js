@@ -3,6 +3,9 @@ import Header from "../Header/index.js";
 
 const Contact = () => {
   return (
+    <h1>
+      Contact me for more information!
+    </h1>
     <Form className="contactForm">
       <Form.Group controlId="formBasicEmail">
         <Form.Label>Email address</Form.Label>

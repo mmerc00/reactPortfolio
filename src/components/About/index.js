@@ -6,10 +6,7 @@ const About = () => {
     <Jumbotron>
       <h1>Welcome!</h1>
       {/* <img src = "/assets/lawnpic.jpg" className "card-img" alt= "Melis"> */}
-      <p>
-        Hello everyone! My name is Melissa Mercado. Here are my links to my
-        resources.
-      </p>
+      <p>Hey everybody! Take a look around my page to explore more.</p>
       <p>
         <Button variant="primary" href="">
           Linkedin

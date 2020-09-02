@@ -19,9 +19,6 @@ const Portfolio = () => {
           Take this fun quiz! 
         </p>
         <footer className="blockquote-footer">
-          <small className="text-muted">
-            Someone famous in <cite title="Source Title">Source Title</cite>
-          </small>
         </footer>
       </blockquote>
     </Card>
@@ -39,6 +36,7 @@ const Portfolio = () => {
       <blockquote className="blockquote mb-0 card-body">
         <p>
           Keep track of your physical activity with this fitness application.
+          https://fitnessapplication.herokuapp.com/stats
         </p>
         <footer className="blockquote-footer">
         </footer>
@@ -67,7 +65,6 @@ const Portfolio = () => {
         </p>
         <footer className="blockquote-footer">
           <small className="text-muted">
-            Someone famous in <cite title="Source Title">Source Title</cite>
           </small>
         </footer>
       </blockquote>
