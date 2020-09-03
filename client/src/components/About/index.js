@@ -8,10 +8,15 @@ const About = () => {
       <img src={lawnpic.jpg} className="card-img" alt="Melis" />
       <p>Hey everybody! Take a look around my page to explore more.</p>
       <p>
-        <Button variant="primary" href="">
+        <Button
+          variant="primary"
+          href="www.linkedin.com/in/melissa-mercado2323"
+        >
           Linkedin
         </Button>
-        <Button variant="primary">Github</Button>
+        <Button variant="primary" href="https://github.com/mmerc00">
+          Github
+        </Button>
       </p>
     </Jumbotron>
   );
