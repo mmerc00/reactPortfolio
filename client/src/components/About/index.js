@@ -1,11 +1,12 @@
 import React from "react";
 import { Jumbotron, Button } from "react-bootstrap";
+import LawnPic from "../../img/lawnpic.jpg";
 
 const About = () => {
   return (
     <Jumbotron>
       <h1>Welcome!</h1>
-      <img src={lawnpic} className="card-img" alt="Melis" />
+      <img src={LawnPic} className="card-img" alt="Melis" />
       <p>Hey everybody! Take a look around my page to explore more.</p>
       <p>
         <Button
