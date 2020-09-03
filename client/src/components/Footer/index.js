@@ -5,7 +5,9 @@ const Footer = () => {
   return (
     <div className="container">
       <Navbar bg="light" fixed="bottom" variant="light">
-        <Navbar.Brand href="#home">Navbar</Navbar.Brand>
+        <Navbar.Brand href="#home" text-align="center">
+          Melissa Mercado
+        </Navbar.Brand>
         <nav className="mr-auto"></nav>
       </Navbar>
     </div>
