@@ -5,14 +5,13 @@ const Portfolio = () => {
   return (
     <div>
       <Card>
-        <Card.Img variant="top" src="holder.js/100px160" />
+        <Card.Img variant="top" src="https://jamesrowe1.github.io/ZAP/" />
         <Card.Body>
           <Card.Title>Zap</Card.Title>
           <Card.Text>
             Check out this cool game app that my teammates and I worked on. We
             created this app that shows video games, where to buy them at the
             best price and multiple previews. Link:
-            https://jamesrowe1.github.io/ZAP/
           </Card.Text>
         </Card.Body>
       </Card>
