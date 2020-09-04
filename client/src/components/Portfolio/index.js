@@ -5,7 +5,7 @@ const Portfolio = () => {
   return (
     <div>
       <Card>
-        <Card.Img variant="top" src="https://jamesrowe1.github.io/ZAP/" />
+        <Card.Img variant="top" src="assets/zap.jpg" />
         <Card.Body>
           <Card.Title>Zap</Card.Title>
           <Card.Text>
@@ -22,7 +22,7 @@ const Portfolio = () => {
         </blockquote>
       </Card>
       <Card>
-        <Card.Img variant="top" src="holder.js/100px160" />
+        <Card.Img variant="top" src="assets/village.png" />
         <Card.Body>
           <Card.Title>The Village Application</Card.Title>
           <Card.Text>
@@ -53,7 +53,7 @@ const Portfolio = () => {
         </Card.Body>
       </Card>
       <Card>
-        <Card.Img src="holder.js/100px160" />
+        <Card.Img src="assets/react.gif" />
       </Card>
       <Card className="text-right">
         <blockquote className="blockquote mb-0 card-body">

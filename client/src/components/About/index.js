@@ -1,12 +1,21 @@
 import React from "react";
 import { Jumbotron, Button } from "react-bootstrap";
-import LawnPic from "../../img/lawnpic.jpg";
+
+const myImg = "assets/lawnpic.jpg";
+
+const styles = {
+  img: {
+    height: "400px",
+    width: "auto",
+    fitContent: "contain",
+  },
+};
 
 const About = () => {
   return (
     <Jumbotron>
       <h1>Welcome!</h1>
-      <img src={LawnPic} className="card-img" alt="Melis" />
+      <img style={styles.img} src={myImg} className="card-img" alt="Melis" />
       <p>Hey everybody! Take a look around my page to explore more.</p>
       <p>
         <Button
