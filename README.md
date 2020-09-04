@@ -1,4 +1,4 @@
-![Demo](react.gif)
+![Demo](client/public/assets/react.gif)
 
 ## React Portfolio
 
