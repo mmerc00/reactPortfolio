@@ -12,12 +12,16 @@ const Portfolio = () => {
             Check out this cool game app that my teammates and I worked on. We
             created this app that shows video games, where to buy them at the
             best price and multiple previews. Link:
+            https://jamesrowe1.github.io/ZAP/
           </Card.Text>
         </Card.Body>
       </Card>
       <Card className="p-3">
         <blockquote className="blockquote mb-0 card-body">
-          <p>Take this fun quiz!</p>
+          <p>
+            Take this fun quiz!
+            <br></br> https://mmerc00.github.io/Code-Quiz/
+          </p>
           <footer className="blockquote-footer"></footer>
         </blockquote>
       </Card>
@@ -27,7 +31,7 @@ const Portfolio = () => {
           <Card.Title>The Village Application</Card.Title>
           <Card.Text>
             This card has supporting text below as a natural lead-in to
-            additional content.{" "}
+            additional content.
           </Card.Text>
         </Card.Body>
       </Card>
@@ -42,39 +46,22 @@ const Portfolio = () => {
       </Card>
       <Card className="text-center">
         <Card.Body>
-          <Card.Title>Card title</Card.Title>
-          <Card.Text>
-            This card has supporting text below as a natural lead-in to
-            additional content.{" "}
-          </Card.Text>
+          <Card.Img src="assets/budget.gif" />
+          <Card.Title>Track your spending online and offline!</Card.Title>
+          <Card.Text>https://trackerofbudget.herokuapp.com/</Card.Text>
           <Card.Text>
             <small className="text-muted">Last updated 3 mins ago</small>
           </Card.Text>
         </Card.Body>
       </Card>
-      <Card>
-        <Card.Img src="assets/react.gif" />
-      </Card>
+
       <Card className="text-right">
         <blockquote className="blockquote mb-0 card-body">
-          <p>
-            Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer
-            posuere erat a ante.
-          </p>
+          <p></p>
           <footer className="blockquote-footer">
             <small className="text-muted"></small>
           </footer>
         </blockquote>
-      </Card>
-      <Card>
-        <Card.Body>
-          <Card.Title>Card title</Card.Title>
-          <Card.Text>
-            This is a wider card with supporting text below as a natural lead-in
-            to additional content. This card has even longer content than the
-            first to show that equal height action.
-          </Card.Text>
-        </Card.Body>
       </Card>
     </div>
   );
