@@ -1,5 +1,6 @@
 import React from "react";
 import { Jumbotron, Button } from "react-bootstrap";
+import "./about.css";
 
 const myImg = "assets/lawnpic.jpg";
 
@@ -13,22 +14,33 @@ const styles = {
 
 const About = () => {
   return (
-    <Jumbotron>
-      <h1>Welcome!</h1>
-      <img style={styles.img} src={myImg} className="card-img" alt="Melis" />
-      <p>Hey everybody! Take a look around my page to explore more.</p>
-      <p>
-        <Button
-          variant="primary"
-          href="www.linkedin.com/in/melissa-mercado2323"
-        >
-          Linkedin
-        </Button>
-        <Button variant="primary" href="https://github.com/mmerc00">
-          Github
-        </Button>
-      </p>
-    </Jumbotron>
+    <div id="about">
+      <Jumbotron>
+        <h1>Welcome!</h1>
+        <img style={styles.img} src={myImg} className="card-img" alt="Melis" />
+        <p>
+          Hey everybody! My name is Melissa Mercado and I graduated Penn State
+          in 2019 with a MBA in Telecomunications. During my time at PSU, I got
+          involved with THON and focused my studies on product development.
+          Currently I am a student at Columbia's full stack coding bootcamp.
+          Take a look around my page to explore more about me.
+        </p>
+        <p>
+          //add target to blank
+          <Button
+            variant="primary"
+            href="www.linkedin.com/in/melissa-mercado2323"
+          >
+            Linkedin
+          </Button>
+          <br></br>
+          <br></br>
+          <Button variant="primary" href="https://github.com/mmerc00">
+            Github
+          </Button>
+        </p>
+      </Jumbotron>
+    </div>
   );
 };
 

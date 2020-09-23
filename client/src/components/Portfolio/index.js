@@ -1,38 +1,61 @@
 import React from "react";
 import Card from "react-bootstrap/Card";
+import "./portfolio.css";
+
+const myImg = "assets/zap.jpg";
+const Img = "assets/village.png";
+const newImg = "assets/budget.gif";
+
+const styles = {
+  img: {
+    height: "500px",
+    width: "500px",
+    fitContent: "contain",
+  },
+};
 
 const Portfolio = () => {
   return (
     <div>
-      <Card>
-        <Card.Img variant="top" src="assets/zap.jpg" />
+      <Card className="text-center p-3">
+        <Card.Img
+          variant="top"
+          style={styles.img}
+          src={myImg}
+          src="assets/zap.jpg"
+        />
         <Card.Body>
           <Card.Title>Zap</Card.Title>
           <Card.Text>
             Check out this cool game app that my teammates and I worked on. We
             created this app that shows video games, where to buy them at the
-            best price and multiple previews. Link:
-            https://jamesrowe1.github.io/ZAP/
-          </Card.Text>
+            best price and multiple previews.
+          </Card.Text>{" "}
+          <a href="https://jamesrowe1.github.io/ZAP/">
+            //add blank to each link
+            <button> check it out</button>
+          </a>
         </Card.Body>
       </Card>
       <Card className="p-3">
         <blockquote className="blockquote mb-0 card-body">
           <p>
-            Take this fun quiz!
-            <br></br> https://mmerc00.github.io/Code-Quiz/
+            Check out Wyld Card! https://blooming-crag-28988.herokuapp.com/
+            <br></br>
           </p>
           <footer className="blockquote-footer"></footer>
         </blockquote>
       </Card>
-      <Card>
-        <Card.Img variant="top" src="assets/village.png" />
+      <Card className="text-center p-3" id="card">
+        <Card.Img
+          variant="top"
+          style={styles.img}
+          src={myImg}
+          src="assets/village.png"
+        />
         <Card.Body>
           <Card.Title>The Village Application</Card.Title>
-          <Card.Text>
-            This card has supporting text below as a natural lead-in to
-            additional content.
-          </Card.Text>
+          <Card.Text>Project 2</Card.Text>
         </Card.Body>
       </Card>
       <Card bg="primary" text="white" className="text-center p-3">
@@ -46,7 +69,7 @@ const Portfolio = () => {
       </Card>
       <Card className="text-center">
         <Card.Body>
-          <Card.Img src="assets/budget.gif" />
+          <Card.Img style={styles.img} src={myImg} src="assets/budget.gif" />
           <Card.Title>Track your spending online and offline!</Card.Title>
           <Card.Text>https://trackerofbudget.herokuapp.com/</Card.Text>
           <Card.Text>
