@@ -1,9 +1,10 @@
 import React from "react";
 import { Form, Button } from "react-bootstrap";
+import "./contact.css";
 
 const Contact = () => {
   return (
-    <>
+    <div id="contact">
       <h1>Contact me for more information!</h1>
       <Form className="contactForm">
         <Form.Group controlId="formBasicEmail">
@@ -16,13 +17,13 @@ const Contact = () => {
 
         <Form.Group controlId="formBasicPassword">
           <Form.Label>Name</Form.Label>
-          <Form.Control type="password" placeholder="Password" />
+          <Form.Control type="name" placeholder="name" />
         </Form.Group>
         <Button variant="primary" type="submit">
           Submit
         </Button>
       </Form>
-    </>
+    </div>
   );
 };
 

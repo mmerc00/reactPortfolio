@@ -30,6 +30,7 @@ const About = () => {
           <Button
             variant="primary"
             href="www.linkedin.com/in/melissa-mercado2323"
+            target="blank"
           >
             Linkedin
           </Button>
