@@ -17,7 +17,12 @@ const About = () => {
     <div id="about">
       <Jumbotron>
         <h1>Welcome!</h1>
-        <img style={styles.img} src={myImg} className="card-img" alt="Melis" />
+        <img
+          style={styles.img}
+          src={myImg}
+          className="card-img"
+          alt="Melissa"
+        />
         <p>
           Hey everybody! My name is Melissa Mercado and I graduated Penn State
           in 2019 with a MBA in Telecomunications. During my time at PSU, I got
@@ -26,7 +31,7 @@ const About = () => {
           Take a look around my page to explore more about me.
         </p>
         <p>
-          //add target to blank
+          {/* //add target to blank */}
           <Button
             variant="primary"
             href="www.linkedin.com/in/melissa-mercado2323"
