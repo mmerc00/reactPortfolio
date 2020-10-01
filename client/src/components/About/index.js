@@ -31,7 +31,6 @@ const About = () => {
           Take a look around my page to explore more about me.
         </p>
         <p>
-          {/* //add target to blank */}
           <Button
             variant="primary"
             href="www.linkedin.com/in/melissa-mercado2323"
