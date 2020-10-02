@@ -16,7 +16,7 @@ const About = () => {
   return (
     <div id="about">
       <Jumbotron>
-        <h1>Welcome!</h1>
+        <h1>Hi there,</h1>
         <img
           style={styles.img}
           src={myImg}
@@ -24,11 +24,11 @@ const About = () => {
           alt="Melissa"
         />
         <p>
-          Hey everybody! My name is Melissa Mercado and I graduated Penn State
-          in 2019 with a MBA in Telecomunications. During my time at PSU, I got
-          involved with THON and focused my studies on product development.
-          Currently I am a student at Columbia's full stack coding bootcamp.
-          Take a look around my page to explore more about me.
+          Welcome to my portfolio! My name is Melissa Mercado and I graduated
+          Penn State in 2019 with a MBA in Telecomunications. During my time at
+          PSU, I got involved with THON and focused my studies on product
+          development. Currently I am a student at Columbia's full stack coding
+          bootcamp. Take a look around my page to explore more about me.
         </p>
         <p>
           <Button
