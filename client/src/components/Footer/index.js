@@ -4,8 +4,8 @@ import "./footer.css";
 
 const Footer = () => {
   return (
-    <div className="container">
-      <Navbar bg="light" fixed="bottom" variant="light" id="footer">
+    <div id="footer">
+      <Navbar bg="light" fixed="bottom" variant="light">
         <Navbar.Brand href="#home" text-align="center">
           Melissa Mercado
         </Navbar.Brand>
