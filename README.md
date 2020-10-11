@@ -18,9 +18,9 @@ working browser
 
 - VS Code
 - Chrome
+- Bootstrap
 - Javascript
 - HTML
-- Mongoose
 - Mongo
 - Github
 - Heroku
