@@ -16,9 +16,9 @@ In this portfolio you can find my past works, a way to contact me and all of my 
 
 - VS Code
 - Chrome
+- Bootstrap
 - Javascript
 - HTML
-- Mongoose
 - Mongo
 - Github
 - Heroku
