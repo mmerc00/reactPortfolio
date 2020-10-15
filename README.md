@@ -8,11 +8,9 @@ In this portfolio you can find my past works, a way to contact me and all of my 
 
 ### Licenses
 
-N/A
-
 ### Prerequisites
 
-working browser
+- Working browser
 
 ## Technologies Utilized
 
