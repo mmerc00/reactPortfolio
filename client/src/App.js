@@ -8,6 +8,7 @@ import { BrowserRouter as Router, Route, Switch } from "react-router-dom";
 // import React, { Component } from "react";
 // import Pdf from "./components/resume/resume";
 import "./App.css";
+// import nyc from "public/assets/nyc.jpg"
 
 function App() {
   return (
