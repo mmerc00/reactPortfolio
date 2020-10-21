@@ -5,9 +5,9 @@ import NavLink from "../NavLink";
 const Header = () => {
   return (
     <div>
-      <Navbar bg="dark" variant="dark">
+      <Navbar>
         <NavLink path="/" classes={["navbar-brand"]}>
-          Melissa
+          Melissa Mercado
         </NavLink>
 
         <nav className="ml-auto">
