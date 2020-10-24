@@ -12,16 +12,18 @@ import "./App.css";
 
 function App() {
   return (
-    <Router>
-      <Header />
-      <Switch>
-        <Route exact path="/" component={About} />
-        <Route exact path="/Contact" component={Contact} />
-        <Route exact path="/Portfolio" component={Portfolio} />
-        {/* <Route component={resume} /> */}
-      </Switch>
-      <Footer />
-    </Router>
+    <div className="backgroundImage">
+      <Router>
+        <Header />
+        <Switch>
+          <Route exact path="/" component={About} />
+          <Route exact path="/Contact" component={Contact} />
+          <Route exact path="/Portfolio" component={Portfolio} />
+          {/* <Route component={resume} /> */}
+        </Switch>
+        <Footer />
+      </Router>
+    </div>
   );
 }
 
