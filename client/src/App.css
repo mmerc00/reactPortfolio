@@ -1,7 +1,7 @@
 .backgroundImage {
-   text-align: center;
-   background-image: url("https://image.freepik.com/free-photo/hi-tech-futuristic-background_118195-78.jpg");
-   background-size: cover;
+  text-align: center;
+  background-image: url("https://image.freepik.com/free-photo/hi-tech-futuristic-background_118195-78.jpg");
+  background-size: cover;
 }
 
 .App-logo {
